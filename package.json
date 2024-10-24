@@ -1,0 +1,44 @@
+{
+    "name": "@brendangooch/simple-game-engine",
+    "version": "1.0.0",
+    "description": "a very simple javascript game engine with a game loop and renderer",
+    "author": "B Gooch <brendangooch@gmail.com>",
+    "license": "MIT",
+    "type": "module",
+    "scripts": {
+        "build": "tsc -p tsconfig.prod.json",
+        "build-dev": "npm run prebuild && tsc",
+        "prebuild": "npm run remove-lib",
+        "prepack": "npm run build",
+        "remove-lib": "rm -rf lib"
+    },
+    "private": false,
+    "publishConfig": {
+        "access": "public"
+    },
+    "exports": {
+        ".": "./lib/index.js"
+    },
+    "types": "./lib/index.d.ts",
+    "files": [
+        "/lib"
+    ],
+    "devDependencies": {
+        "typescript": "^5.6.3"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/brendangooch/simple-game-engine.git"
+    },
+    "homepage": "https://github.com/brendangooch/simple-game-engine#readme",
+    "bugs": {
+        "url": "https://github.com/brendangooch/simple-game-engine/issues",
+        "email": "brendangooch@gmail.com"
+    },
+    "keywords": [],
+    "dependencies": {
+        "@brendangooch/canvas": "^2.0.0",
+        "@brendangooch/simple-game-loop": "^3.0.0",
+        "@brendangooch/simple-renderer": "^2.1.0"
+    }
+}

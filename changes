@@ -1,0 +1,9 @@
+
+v1.0.0
+    client passes in a Canvas object on instantiation
+    client can stop, start or toggle the engine on or off, which stops or starts the loop and renderer
+    client can add iUpdateable objects to the loop
+    client can add iRenderable objects to the renderer
+    FULLY tested manually in browser
+
+...
