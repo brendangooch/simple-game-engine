@@ -6,4 +6,6 @@ v1.0.0
     client can add iRenderable objects to the renderer
     FULLY tested manually in browser
 
-...
+v1.1.0
+    updated simple game loop package to v4.0.0
+    non-breaking changes, the updated iUpdateable interface is not implemented by engine
