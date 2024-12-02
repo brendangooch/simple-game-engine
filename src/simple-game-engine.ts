@@ -41,7 +41,7 @@ export class SimpleGameEngine {
         }
     }
 
-    public toggle(): void {
+    public pause(): void {
         if (!this.running) this.start();
         else this.stop();
     }

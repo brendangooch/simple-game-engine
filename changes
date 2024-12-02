@@ -9,3 +9,7 @@ v1.0.0
 v1.1.0
     updated simple game loop package to v4.0.0
     non-breaking changes, the updated iUpdateable interface is not implemented by engine
+
+v2.0.0
+    updated simple renderer package to v2.1.1, which just utilises latest canvas package
+    changed toggle() method to pause() so a breaking change
