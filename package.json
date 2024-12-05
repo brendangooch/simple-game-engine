@@ -1,6 +1,6 @@
 {
     "name": "@brendangooch/simple-game-engine",
-    "version": "2.0.0",
+    "version": "2.0.1",
     "description": "a very simple javascript game engine with a game loop and renderer",
     "author": "B Gooch <brendangooch@gmail.com>",
     "license": "MIT",
@@ -37,8 +37,8 @@
     },
     "keywords": [],
     "dependencies": {
-        "@brendangooch/canvas": "^3.0.0",
+        "@brendangooch/canvas": "^4.0.0",
         "@brendangooch/simple-game-loop": "^4.0.0",
-        "@brendangooch/simple-renderer": "^2.1.1"
+        "@brendangooch/simple-renderer": "^2.1.2"
     }
 }
