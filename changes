@@ -1,18 +1,21 @@
 
 v1.0.0
-    client passes in a Canvas object on instantiation
-    client can stop, start or toggle the engine on or off, which stops or starts the loop and renderer
-    client can add iUpdateable objects to the loop
-    client can add iRenderable objects to the renderer
-    FULLY tested manually in browser
+client passes in a Canvas object on instantiation
+client can stop, start or toggle the engine on or off, which stops or starts the loop and renderer
+client can add iUpdateable objects to the loop
+client can add iRenderable objects to the renderer
+FULLY tested manually in browser
 
 v1.1.0
-    updated simple game loop package to v4.0.0
-    non-breaking changes, the updated iUpdateable interface is not implemented by engine
+updated simple game loop package to v4.0.0
+non-breaking changes, the updated iUpdateable interface is not implemented by engine
 
 v2.0.0
-    updated simple renderer package to v2.1.1, which just utilises latest canvas package
-    changed toggle() method to pause() so a breaking change
+updated simple renderer package to v2.1.1, which just utilises latest canvas package
+changed toggle() method to pause() so a breaking change
 
 v2.0.1
-    updated simple renderer package to v2.1.2, which just utilises latest canvas package
+updated simple renderer package to v2.1.2, which just utilises latest canvas package
+
+v2.0.2
+updated simple renderer package to v2.1.3, which just utilises latest canvas package
